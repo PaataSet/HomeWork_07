@@ -17,12 +17,41 @@ img {
   max-width: 100%;
 }
 
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-45-Lights";
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-55-Roman";
+  src: url("../fonts/HelveticaNeueLTGEO-75Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-75Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-75Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font1 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+.font2 {
+  font-family: Helvetica-Neue-LT-GEO-55-Roman;
+  font-size: 16px;
+}
+
 nav,
 nav li {
   display: inline-block;
   vertical-align: middle;
   margin: 10px 30px;
-  font-size: 30px;
 }
 
 .container1 {
@@ -59,6 +88,9 @@ p {
 
 h1 {
   margin: 20px;
+  font-size: 32px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-weight: bold;
 }
 
 .para {
@@ -70,7 +102,9 @@ h1 {
 
 .photo1 {
   display: inline-block;
+  max-width: 100%;
   width: 707px;
+  margin-top: 150px;
 }
 
 .container2 {
@@ -95,12 +129,10 @@ h1 {
 }
 
 .proj1 {
+  position: relative;
   width: 463px;
   margin: 0 auto;
-}
-
-.proj1 {
-  position: relative;
+  padding-bottom: 50px;
 }
 
 .proj1-p {
@@ -108,11 +140,16 @@ h1 {
   width: 463px;
   top: 350px;
   left: 0px;
+  bottom: 100px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 18px;
+  background-color: rgb(58, 164, 225);
 }
 
 .proj2 {
   position: relative;
 }
+
 .proj2-p {
   position: absolute;
   width: 463px;
