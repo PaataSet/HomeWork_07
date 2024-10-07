@@ -144,6 +144,7 @@ h1 {
   font-family: Helvetica-Neue-LT-GEO-45-Lights;
   font-size: 18px;
   background-color: rgb(58, 164, 225);
+  transform: translate(+0, -50%);
 }
 
 .proj2 {
