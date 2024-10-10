@@ -76,8 +76,8 @@ nav li {
 
 article {
   margin: 20px auto;
-  margin-bottom: 150px;
-  max-width: 1500px;
+  margin-bottom: 50px;
+  max-width: 1920px;
   width: 100%;
   border: solid;
 }
@@ -96,7 +96,7 @@ h1 {
 .para {
   width: 500px;
   display: inline-block;
-  margin: 20px;
+  margin: 50px;
   vertical-align: top;
 }
 
@@ -113,67 +113,48 @@ h1 {
   margin: 0 auto;
 }
 
+.article-inside {
+  max-width: 1920px;
+  width: 96%;
+  margin: 0 300px;
+}
+
 .container-3 {
   border: solid;
   max-width: 1920px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .container-3 div {
   display: inline-block;
 }
 
-.container-3 p {
-  font-size: 18px;
-  padding: 30px;
-}
-
-.proj1 {
+.proj {
   position: relative;
   width: 463px;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-
-.proj1-p {
-  position: absolute;
-  width: 463px;
-  top: 350px;
-  left: 0px;
-  bottom: 100px;
-  font-family: Helvetica-Neue-LT-GEO-45-Lights;
-  font-size: 18px;
-  background-color: rgb(58, 164, 225);
-  transform: translate(+0, -50%);
+  margin-left: 10px;
+  padding-top: 50px;
 }
 
 .proj2 {
-  position: relative;
+  transform: translate(0, -65px);
 }
 
-.proj2-p {
-  position: absolute;
-  width: 463px;
-  top: 350px;
-  left: 0px;
+button {
+  width: 160px;
+  height: 55px;
+  border-radius: 28px;
 }
 
-.proj3 {
-  position: relative;
-}
-.proj3-p {
+.proj-button {
+  width: 443px;
+  height: 125px;
+  border-radius: 12px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 18px;
   position: absolute;
-  width: 463px;
   top: 350px;
-  left: 0px;
-}
-
-.proj4 {
-  position: relative;
-}
-.proj4-p {
-  position: absolute;
-  width: 463px;
-  top: 350px;
-  left: 0px;
+  left: 10px;
+  bottom: 30px;
+  transform: translate(0, -15px);
 }
