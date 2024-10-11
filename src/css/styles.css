@@ -109,7 +109,7 @@ h1 {
 }
 
 .para {
-  width: 500px;
+  width: 463px;
   display: inline-block;
   padding: 20px;
   vertical-align: top;
@@ -121,6 +121,7 @@ h1 {
   max-width: 100%;
   width: 707px;
   margin-top: 150px;
+  padding: 20px;
 
   animation-name: rotation-360;
   animation-duration: 1s;
@@ -130,8 +131,9 @@ h1 {
 .container-2 {
   max-width: 1920px;
   width: 100%;
-  margin: 10px auto;
-  border: solid;
+  margin: 0 auto;
+  /* border: solid; */
+  padding: 10px;
 
   background-image: url(../images/ccrysler.webp);
   background-position: top left;
@@ -139,14 +141,37 @@ h1 {
 }
 
 .container-3 {
-  border: solid;
+  /* border: solid; */
   max-width: 1920px;
   width: 96%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .container-3 div {
   display: inline-block;
+}
+
+.container-4 {
+  /* border: solid; */
+  max-width: 1920px;
+  width: 96%;
+  margin: 10px auto;
+}
+
+.container-4 div {
+  display: inline-block;
+}
+
+.container-4 > .para {
+  margin-right: 269px;
+}
+
+.cont4 {
+  display: inline-block;
+  /* border: solid; */
+  max-width: 219px;
+  width: 96%;
+  margin: 10px auto;
 }
 
 .proj {
